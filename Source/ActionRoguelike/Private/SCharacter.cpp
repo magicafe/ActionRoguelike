@@ -7,6 +7,7 @@
 #include "Camera/CameraComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "Kismet/KismetMathLibrary.h"
 
 // Sets default values
 ASCharacter::ASCharacter()
@@ -60,8 +61,29 @@ void ASCharacter::PrimaryAttack()
 
 void ASCharacter::PrimaryAttack_TimeElapsed()
 {
+	FVector TargetEnd;
+	
+	FHitResult HitResult;
+	FVector TraceStart = CameraComp->K2_GetComponentLocation();
+	FVector TraceEnd = UKismetMathLibrary::GetForwardVector(CameraComp->K2_GetComponentRotation()) * 3000 + TraceStart;
+	FCollisionQueryParams QueryParams;
+	QueryParams.AddIgnoredActor(this);
+	GetWorld()->LineTraceSingleByChannel(HitResult, TraceStart, TraceEnd, ECC_Visibility, QueryParams);
+	if (HitResult.bBlockingHit && IsValid(HitResult.GetActor()))
+	{
+		UE_LOG(LogTemp, Log, TEXT("Trace hit actor: %s"), *HitResult.GetActor()->GetName());
+		TargetEnd = HitResult.ImpactPoint;
+		// DrawDebugSphere(GetWorld(), HitResult.ImpactPoint, 10, 32, FColor::Green, true, 2);
+	}
+	else
+	{
+		UE_LOG(LogTemp, Log, TEXT("No Actors were hit"));
+		TargetEnd = TraceEnd;
+	}
+
 	FVector HandLocation = GetMesh()->GetSocketLocation("Muzzle_01");
-	FTransform SpawnTM = FTransform(GetControlRotation(), HandLocation);
+	// FTransform SpawnTM = FTransform(GetControlRotation(), HandLocation);
+	FTransform SpawnTM = FTransform(UKismetMathLibrary::FindLookAtRotation(HandLocation, TargetEnd), HandLocation);
 	FActorSpawnParameters SpawnParams;
 	SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
 	SpawnParams.Instigator = this;
@@ -80,14 +102,14 @@ void ASCharacter::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 	// Rotation Visualization
-	const float DrawScale = 100.0f;
-	const float Thickness = 5.0f;
+	constexpr float DrawScale = 100.0f;
+	constexpr float Thickness = 5.0f;
 	FVector LineStart = GetActorLocation();
 	LineStart += GetActorRightVector() * 100.0f;
-	FVector ActorDirection_LineEnd = LineStart + GetActorForwardVector() * 100.0f;
+	const FVector ActorDirection_LineEnd = LineStart + GetActorForwardVector() * 100.0f;
 	DrawDebugDirectionalArrow(GetWorld(), LineStart, ActorDirection_LineEnd, DrawScale, FColor::Yellow,
 		false, 0.0f, 0, Thickness);
-	FVector ControlDirection_LineEnd = LineStart + GetControlRotation().Vector() * 100.0f;
+	const FVector ControlDirection_LineEnd = LineStart + GetControlRotation().Vector() * 100.0f;
 	DrawDebugDirectionalArrow(GetWorld(), LineStart, ControlDirection_LineEnd, DrawScale, FColor::Green,
 		false, 0.0f, 0, Thickness);
 }

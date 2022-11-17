@@ -22,14 +22,20 @@ ASExplosiveBarrel::ASExplosiveBarrel()
 	RadialForceComp->bImpulseVelChange = true;
 	RadialForceComp->bAutoActivate = false;
 	RadialForceComp->SetupAttachment(RootComponent);
+	RadialForceComp->AddCollisionChannelToAffect(ECC_WorldDynamic);
+}
+
+void ASExplosiveBarrel::PostInitializeComponents()
+{
+	Super::PostInitializeComponents();
+
+	MeshComp->OnComponentHit.AddDynamic(this, &ASExplosiveBarrel::OnProjectileHit);
 }
 
 // Called when the game starts or when spawned
 void ASExplosiveBarrel::BeginPlay()
 {
 	Super::BeginPlay();
-
-	MeshComp->OnComponentHit.AddDynamic(this, &ASExplosiveBarrel::OnProjectileHit);
 }
 
 void ASExplosiveBarrel::OnProjectileHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp,

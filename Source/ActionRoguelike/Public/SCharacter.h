@@ -10,6 +10,7 @@ class UCameraComponent;
 class USpringArmComponent;
 class USInteractionComponent;
 class UAnimMontage;
+class USAttributeComponent;
 
 UCLASS()
 class ACTIONROGUELIKE_API ASCharacter : public ACharacter
@@ -23,7 +24,11 @@ protected:
 	UPROPERTY(EditAnywhere, Category="Attack")
 	UAnimMontage* AttackAnim;
 
+	UPROPERTY(EditAnywhere, Category="Skill")
+	TSubclassOf<AActor> BlackholeProjectileClass;
+
 	FTimerHandle TimerHandle_PrimaryAttack;
+	FTimerHandle TimerHandle_SkillAttack;
 
 public:
 	// Sets default values for this character's properties
@@ -38,6 +43,9 @@ protected:
 
 	UPROPERTY(VisibleAnywhere)
 	USInteractionComponent* InteractionComp;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Components")
+	USAttributeComponent* AttributeComp;
 	
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -51,6 +59,10 @@ protected:
 	void PrimaryAttack_TimeElapsed();
 
 	void PrimaryInteract();
+
+	void SkillAttack();
+
+	void SkillAttack_TimeElapsed();
 	
 public:	
 	// Called every frame

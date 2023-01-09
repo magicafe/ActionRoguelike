@@ -1,118 +1,69 @@
-/Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Intermediate/Build/Mac/x86_64/UnrealEditor/Development/RiderGameControl/RiderGameControl.cpp.o: \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderGameControl/Private/RiderGameControl.cpp \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Intermediate/Build/Mac/x86_64/UnrealEditor/Development/RiderGameControl/Definitions.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderGameControl/Public/RiderGameControl.hpp \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/lifetime/LifetimeDefinition.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/core_traits.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/types/Void.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/functional \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/search.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/comp.h \
+/Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Intermediate/Build/Mac/x86_64/UnrealEditor/Development/RiderLink/RiderLink.cpp.o: \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Private/RiderLink.cpp \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Intermediate/Build/Mac/x86_64/UnrealEditor/Development/RiderLink/Definitions.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Private/RiderLink.hpp \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/IRiderLink.hpp \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/RdEditorModel/RdEditorModel.Generated.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/protocol/Protocol.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IProtocol.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IRdDynamic.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/impl/RName.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/thirdparty.hpp \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/ordered-map/include/tsl/ordered_set.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstddef \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config_site \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/pthread.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__undef_macros \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/iterator_traits.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/incrementable_traits.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/concepts \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/invoke.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/weak_result_type.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/binary_function.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/unary_function.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/type_traits \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstddef \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/version \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/__stddef_max_align_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__nullptr \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/forward.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/move.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional_base \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/operations.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/reference_wrapper.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/addressof.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/allocator_arg_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/uses_allocator.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/exception \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__availability \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstdlib \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/stdlib.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/stdlib.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/Availability.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/AvailabilityVersions.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/AvailabilityInternal.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/cdefs.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_symbol_aliasing.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_posix_availability.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/machine/_types.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/i386/_types.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_types.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/wait.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_pid_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_id_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/signal.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/appleapiopts.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/machine/signal.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/i386/signal.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/machine/_mcontext.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/i386/_mcontext.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/mach/machine/_structs.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/mach/i386/_structs.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/machine/types.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/i386/types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstdint \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/stdint.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/stdint.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/stdint.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_int8_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_int16_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_int32_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_int64_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_u_int8_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_u_int16_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_u_int32_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_u_int64_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_intptr_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_uintptr_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_sigaltstack.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_ucontext.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_sigset_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_size_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_uid_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/resource.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/stdint.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/stdint.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/stdint.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types/_uint8_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types/_uint16_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types/_uint32_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types/_uint64_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/cdefs.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_symbol_aliasing.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_posix_availability.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/machine/_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/i386/_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_intptr_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/machine/types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/i386/types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_u_int8_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_u_int16_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_u_int32_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_u_int64_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_uintptr_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types/_intmax_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types/_uintmax_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_timeval.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/machine/endian.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/i386/endian.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_endian.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/libkern/_OSByteOrder.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/libkern/i386/_OSByteOrder.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/alloca.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_ct_rune_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_rune_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_wchar_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_null.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/malloc/_malloc.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_dev_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_mode_t.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/new \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/typeinfo \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstdint \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/utility \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/deque \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__debug \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/iosfwd \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__mbstate_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/wchar.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/wchar.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/Availability.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/AvailabilityVersions.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/AvailabilityInternal.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_null.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_size_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_mbstate_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_ct_rune_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_rune_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_wchar_t.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/stdarg.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/stdio.h \
@@ -134,6 +85,68 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/ctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_ctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/runetype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__split_buffer \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/forward.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/type_traits \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/move.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__undef_macros \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/algorithm \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__bits \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstring \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/string.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/string.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/strings.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/functional \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/search.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/comp.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/iterator_traits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/incrementable_traits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/concepts \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/invoke.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/weak_result_type.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/binary_function.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/unary_function.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional_base \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/operations.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/reference_wrapper.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/addressof.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/allocator_arg_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/uses_allocator.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/exception \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__availability \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstdlib \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/stdlib.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/stdlib.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/wait.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_pid_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_id_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/signal.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/appleapiopts.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/machine/signal.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/i386/signal.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/machine/_mcontext.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/i386/_mcontext.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/mach/machine/_structs.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/mach/i386/_structs.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_sigaltstack.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_ucontext.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_sigset_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_uid_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/resource.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_timeval.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/machine/endian.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/i386/endian.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_endian.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/libkern/_OSByteOrder.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/libkern/i386/_OSByteOrder.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/alloca.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/malloc/_malloc.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_dev_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_mode_t.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/new \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/typeinfo \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/utility \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__tuple \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/as_const.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/cmp.h \
@@ -170,10 +183,6 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/stdexcept \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/unique_ptr.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/hash.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstring \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/string.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/string.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/strings.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/atomic \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/chrono \
@@ -256,9 +265,6 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/ranges_operations.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/unary_negate.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/string \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/algorithm \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__bits \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/all_of.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/any_of.h \
@@ -351,32 +357,6 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/transform.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/unique_copy.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/unique.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstdio \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/string_view \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__ranges/enable_view.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__string \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cwchar \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cwctype \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cctype \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/wctype.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/wctype.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types/_wctrans_t.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/lifetime/LifetimeImpl.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/std/hash.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/map \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/is_transparent.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__node_handle \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/optional \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__tree \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/mutex \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__mutex_base \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/system_error \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__errc \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cerrno \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/thirdparty.hpp \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/ordered-map/include/tsl/ordered_set.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/deque \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__split_buffer \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/vector \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__bit_reference \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/ordered-map/include/tsl/ordered_hash.h \
@@ -384,11 +364,28 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/math.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/math.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/ordered-map/include/tsl/ordered_map.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/optional \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/string_view \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__ranges/enable_view.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__string \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstdio \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cwchar \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cwctype \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cctype \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/wctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/wctype.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types/_wctrans_t.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/string-view-lite/include/nonstd/string_view.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/ostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/bitset \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/string \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/ios \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__locale \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/mutex \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__mutex_base \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/system_error \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__errc \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cerrno \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/locale.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/locale.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_locale.h \
@@ -434,9 +431,120 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/rd_framework_export.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/Serializers.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/protocol/RdId.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/protocol/Buffer.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/types/DateTime.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/std/hash.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/rd_core_export.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/core_util.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/erase_if.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/gen_util.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/std/allocator.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/overloaded.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/shared_function.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/std/to_string.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/thread \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/sstream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/istream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/future \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/codecvt \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/types/wrapper.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/core_traits.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/types/Void.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/spdlog.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/common.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/tweakme.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/null_mutex.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/fmt.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/core.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/format.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/registry.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/unordered_map \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/is_transparent.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__hash_table \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__node_handle \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/logger.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/log_msg.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/backtracer.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/log_msg_buffer.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/circular_q.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/version.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/synchronous_factory.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/iostream \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/std/list.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/util/hashing.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/ISerializable.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/protocol/Identities.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IUnknownInstance.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/RdAny.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/DefaultAbstractDeclaration.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/std/unordered_map.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/unordered_set \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/scheduler/base/IScheduler.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IWire.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/interfaces.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/lifetime/Lifetime.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Logging/LogMacros.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/lifetime/LifetimeImpl.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/map \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__tree \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IRdReactive.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IRdBindable.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IRdWireable.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/Property.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/IProperty.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/SignalX.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/SignalCookie.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/IPropertyBase.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/lifetime/SequentialLifetimes.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/lifetime/LifetimeDefinition.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/SerializationCtx.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/regex \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/intern/InternRoot.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/RdReactiveBase.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/RdBindableBase.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/util/guards.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/intern/InternScheduler.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/InternedAnySerializer.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/impl/RdSignal.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/Polymorphic.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/impl/RdProperty.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/RdPropertyBase.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/impl/RdList.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/ViewableList.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/IViewableList.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/viewable_collections.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/impl/RdSet.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/ViewableSet.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/IViewableSet.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/impl/RdMap.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/ViewableMap.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/IViewableMap.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/ISerializersOwner.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/NullableSerializer.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/AbstractPolymorphic.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/util/framework_traits.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/ArraySerializer.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/InternedSerializer.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/ext/RdExtBase.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/ext/ExtWire.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/queue \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/RdCall.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/RdTask.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/RdTaskImpl.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/RdTaskResult.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/scheduler/SynchronousScheduler.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/WiredRdTask.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/WiredRdTaskImpl.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/RdEndpoint.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/RdSymmetricCall.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/enum.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/instantiations_RdEditorRoot.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ConnectionInfo.Generated.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/instantiations_UE4Library.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/UE4TypesMarshallers.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Containers/UnrealString.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/CoreTypes.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/HAL/Platform.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/Build.h \
@@ -456,13 +564,19 @@
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/../HAL/PreprocessorHelpers.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/CoreDefines.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/VarArgs.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/AssertionMacros.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/HAL/PlatformMisc.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/GenericPlatform/GenericPlatformMisc.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/OutputDevice.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/CoreFwd.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Containers/ContainersFwd.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Traits/IsContiguousContainer.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/UObject/UObjectHierarchyFwd.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Logging/LogVerbosity.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Templates/IsValidVariadicFunctionArg.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Templates/IsEnum.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Templates/AndOrNot.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Templates/IsArrayOrRefOfType.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/AssertionMacros.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/HAL/PlatformMisc.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/GenericPlatform/GenericPlatformMisc.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Containers/StringFwd.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/HAL/PlatformCrt.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/float.h \
@@ -1664,14 +1778,7 @@
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/TraceLog/Public/Trace/Config.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/TraceLog/Public/Trace/Detail/Channel.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/TraceLog/Public/Trace/Detail/Channel.inl \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Templates/AndOrNot.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Templates/EnableIf.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Templates/IsArrayOrRefOfType.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Templates/IsValidVariadicFunctionArg.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Templates/IsEnum.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Containers/UnrealString.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/OutputDevice.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Logging/LogVerbosity.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/HAL/UnrealMemory.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Templates/IsPointer.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/HAL/PlatformMemory.h \
@@ -1774,140 +1881,10 @@
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Algo/IntroSort.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Templates/AlignmentTemplates.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/StringFormatArg.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Logging/LogCategory.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/UObject/NameTypes.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/HAL/CriticalSection.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Mac/MacCriticalSection.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/HAL/PThreadCriticalSection.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/HAL/PThreadRWLock.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/Timespan.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/Interval.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Containers/StringConv.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Traits/ElementType.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/UObject/UnrealNames.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/UObject/UnrealNames.inl \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/StringBuilder.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Containers/StringView.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/String/Find.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Containers/ArrayView.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Templates/IsConst.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Templates/PointerIsConvertibleFromTo.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/StaticAssertCompleteType.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Templates/LosesQualifiersFromTo.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Logging/LogScopedCategoryAndVerbosityOverride.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Logging/LogTrace.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/ProfilingDebugging/FormatArgsTrace.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Modules/ModuleInterface.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Templates/UniquePtr.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Templates/RemoveExtent.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/IRiderLink.hpp \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/RdEditorModel/RdEditorModel.Generated.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/protocol/Protocol.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IProtocol.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IRdDynamic.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/impl/RName.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/rd_framework_export.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/Serializers.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/protocol/RdId.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/protocol/Buffer.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/types/DateTime.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/core_util.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/erase_if.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/gen_util.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/std/allocator.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/overloaded.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/shared_function.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/std/to_string.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/thread \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/sstream \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/istream \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/future \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/codecvt \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/types/wrapper.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/spdlog.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/common.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/tweakme.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/null_mutex.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/fmt.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/core.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/format.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/registry.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/unordered_map \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__hash_table \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/logger.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/log_msg.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/backtracer.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/log_msg_buffer.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/circular_q.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/version.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/synchronous_factory.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/iostream \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/std/list.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/util/hashing.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/ISerializable.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/protocol/Identities.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IUnknownInstance.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/RdAny.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/Serialization/DefaultAbstractDeclaration.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/std/unordered_map.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/unordered_set \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/scheduler/base/IScheduler.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IWire.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/interfaces.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IRdReactive.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IRdBindable.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IRdWireable.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/Property.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/IProperty.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/SignalX.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/SignalCookie.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/IPropertyBase.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/lifetime/SequentialLifetimes.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/SerializationCtx.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/regex \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/intern/InternRoot.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/RdReactiveBase.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/RdBindableBase.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/util/guards.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/intern/InternScheduler.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/InternedAnySerializer.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/impl/RdSignal.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/Polymorphic.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/impl/RdProperty.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/RdPropertyBase.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/impl/RdList.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/ViewableList.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/IViewableList.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/viewable_collections.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/impl/RdSet.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/ViewableSet.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/IViewableSet.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/impl/RdMap.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/ViewableMap.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/IViewableMap.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/ISerializersOwner.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/NullableSerializer.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/AbstractPolymorphic.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/util/framework_traits.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/ArraySerializer.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/InternedSerializer.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/ext/RdExtBase.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/ext/ExtWire.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/queue \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/RdCall.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/RdTask.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/RdTaskImpl.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/RdTaskResult.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/scheduler/SynchronousScheduler.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/WiredRdTask.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/WiredRdTaskImpl.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/RdEndpoint.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/RdSymmetricCall.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/enum.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/instantiations_RdEditorRoot.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ConnectionInfo.Generated.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/instantiations_UE4Library.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/UE4TypesMarshallers.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UnrealLogEvent.Generated.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/LogMessageInfo.Generated.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/StringRange.Generated.h \
@@ -1915,6 +1892,7 @@
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UClass.Generated.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/PlayState.Generated.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestResultBase.Generated.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Modules/ModuleInterface.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Modules/ModuleManager.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Containers/Map.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Algo/Reverse.h \
@@ -1925,7 +1903,7 @@
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Containers/BitArray.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Serialization/StructuredArchive.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Serialization/StructuredArchiveFormatter.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Serialization/Formatters/BinaryArchiveFormatter.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/serialization/Formatters/BinaryArchiveFormatter.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/Optional.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Concepts/Insertable.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Serialization/ArchiveProxy.h \
@@ -1933,8 +1911,30 @@
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Templates/RetainedRef.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Templates/Tuple.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Delegates/IntegerSequence.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/UObject/NameTypes.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/HAL/CriticalSection.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Mac/MacCriticalSection.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/HAL/PThreadCriticalSection.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/HAL/PThreadRWLock.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/Timespan.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/Interval.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/UObject/UnrealNames.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/UObject/UnrealNames.inl \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/StringBuilder.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Containers/StringView.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/String/Find.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Containers/ArrayView.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Templates/IsConst.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Templates/PointerIsConvertibleFromTo.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/StaticAssertCompleteType.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Templates/LosesQualifiersFromTo.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Templates/SharedPointer.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/CoreGlobals.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Logging/LogMacros.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Logging/LogCategory.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Logging/LogScopedCategoryAndVerbosityOverride.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Logging/LogTrace.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/ProfilingDebugging/FormatArgsTrace.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/HAL/PlatformTLS.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/GenericPlatform/GenericPlatformTLS.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Mac/MacPlatformTLS.h \
@@ -1957,910 +1957,48 @@
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/HAL/ThreadSingleton.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/HAL/TlsAutoCleanup.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Modules/Boilerplate/ModuleBoilerplate.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestFailed.Generated.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/NotificationType.Generated.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestSucceed.Generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Async/Async.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Async/Future.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/scheduler/SingleThreadScheduler.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/scheduler/base/SingleThreadSchedulerBase.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/wire/SocketWire.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/WireBase.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/protocol/MessageBroker.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/wire/ByteBufferAsyncProcessor.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/condition_variable \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/list \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/wire/PkgInputStream.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/array \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Private/ProtocolFactory.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UE4Library.Generated.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/App.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/Parse.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/Guid.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Hash/CityHash.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/CommandLine.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/QualifiedFrameTime.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/FrameRate.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/FrameNumber.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/FrameTime.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Internationalization/Text.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Internationalization/TextKey.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Internationalization/LocKeyFuncs.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Internationalization/CulturePointer.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Internationalization/TextLocalizationManager.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Internationalization/LocTesting.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Internationalization/LocalizedTextSourceTypes.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Internationalization/StringTableCoreFwd.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Internationalization/ITextData.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/Range.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/DateTime.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/HAL/Event.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/RangeBound.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/ExpressionParserTypes.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Internationalization/Internationalization.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Templates/ValueOrError.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/TVariant.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/TVariantMeta.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/ExpressionParserTypes.inl \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/Timecode.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/HAL/PlatformProcess.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Mac/MacPlatformProcess.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/GenericPlatform/GenericPlatformProcess.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/GenericPlatform/GenericPlatformAffinity.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/ScopeLock.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Async/TaskGraphInterfaces.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Containers/LockFreeList.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/NoopCounter.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Stats/Stats.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/Color.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/Parse.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/HAL/PlatformTime.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Mac/MacPlatformTime.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Apple/ApplePlatformTime.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/GenericPlatform/GenericPlatformTime.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Stats/StatsCommon.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Stats/Stats2.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/HAL/LowLevelMemTracker.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/ProfilingDebugging/TagTrace.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/TraceLog/Public/Trace/Detail/LogScope.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/TraceLog/Public/Trace/Detail/Writer.inl \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Containers/ChunkedArray.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Containers/IndirectArray.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/ProfilingDebugging/MiscTrace.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Stats/StatsTrace.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/HAL/IConsoleManager.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/AccessDetection.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Features/IModularFeature.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Templates/RefCounting.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Containers/LockFreeFixedSizeAllocator.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Experimental/ConcurrentLinearAllocator.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/CoreMinimal.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Templates/IntegralConstant.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Templates/IsClass.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/Compression.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/FrameNumber.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/ColorList.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/IntVector.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/Vector2D.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/LargeWorldCoordinatesSerializer.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/NetworkVersion.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/IntRect.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/ByteSwap.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Internationalization/CulturePointer.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Internationalization/TextLocalizationManager.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Internationalization/TextKey.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Internationalization/LocTesting.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Internationalization/LocKeyFuncs.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Internationalization/LocalizedTextSourceTypes.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Internationalization/Text.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Internationalization/StringTableCoreFwd.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Internationalization/ITextData.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Internationalization/Internationalization.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/Vector.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/Axis.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/VectorRegister.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/UnrealMathSSE.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/sse_mathfun.inl \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/UnrealMathVectorConstants.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/UnrealMathVectorCommon.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/Vector4.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/TwoVectors.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/Edge.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/Plane.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/Sphere.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/Matrix.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/Rotator.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/Matrix.inl \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/Transform.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/Quat.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/ScalarRegister.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/TransformVectorized.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/TransformNonVectorized.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/CapsuleShape.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/RangeBound.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/AutomationEvent.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/Guid.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Hash/CityHash.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/Range.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/RangeSet.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/Box.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/Box2D.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/BoxSphereBounds.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/OrientedBox.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/RotationTranslationMatrix.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/RotationAboutPointMatrix.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/ScaleRotationTranslationMatrix.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/RotationMatrix.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/QuatRotationTranslationMatrix.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/PerspectiveMatrix.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/OrthoMatrix.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/TranslationMatrix.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/InverseRotationMatrix.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/ScaleMatrix.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/MirrorMatrix.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/ClipProjectionMatrix.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/InterpCurvePoint.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/InterpCurve.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/CurveEdInterface.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/Float32.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/Float16.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/Float16Color.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/Vector2DHalf.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/ConvexHull2d.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/UnrealMath.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/Ray.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/HAL/MallocAnsi.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/sanitizer/asan_interface.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/sanitizer/common_interface_defs.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/MemStack.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Async/Fundamental/Task.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Async/Fundamental/TaskDelegate.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/ScopeExit.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/Launder.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Async/TaskTrace.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/HAL/Runnable.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/HAL/RunnableThread.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/HAL/PlatformAffinity.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Mac/MacPlatformAffinity.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Apple/ApplePlatformAffinity.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/CoreStats.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/IQueuedWork.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/QueuedThreadPool.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/Fork.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/UnrealEd/Classes/Editor/UnrealEdEngine.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectMacros.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/Script.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/Templates/SubclassOf.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/Class.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Concepts/GetTypeHashable.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/RandomStream.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/FallbackStruct.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/Misc/PackageAccessTracking.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/Misc/PackageName.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/Misc/PackagePath.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectHandle.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/Object.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectBaseUtility.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectBase.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectGlobals.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/PrimaryAssetId.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/LinkerInstancingContext.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/OutputDeviceRedirector.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/Serialization/ArchiveUObject.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectArray.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectMarks.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/ProfilingDebugging/ResourceSize.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectPathId.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/Package.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/IO/PackageId.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/OutputDeviceError.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/ObjectThumbnail.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/SecureHash.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Async/AsyncWork.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Async/Fundamental/Scheduler.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/HAL/Thread.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Async/Fundamental/LocalQueue.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Experimental/Containers/FAAArrayQueue.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Experimental/Containers/HazardPointer.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Serialization/BufferReader.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/String/BytesToHex.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/String/HexToBytes.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/Misc/WorldCompositionUtility.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Serialization/CustomVersion.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Templates/PimplPtr.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/Misc/PackageAccessTrackingOps.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/ScopeRWLock.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/CoreNative.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/GarbageCollection.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/HAL/ThreadSafeBool.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/FastReferenceCollectorOptions.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/ReflectedTypeAccessors.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/FieldPath.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/Field.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/WeakObjectPtr.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/PropertyTag.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/GameFramework/Actor.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/InputCore/Classes/InputCoreTypes.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/Attribute.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/TVariant.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/TVariantMeta.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/InputCore/InputCoreTypes.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/ScriptMacros.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/ScriptInterface.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/Templates/Casts.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectPtr.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/UnrealType.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Containers/List.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/Serialization/SerializedPropertyScope.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Serialization/MemoryImage.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Containers/HashTable.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Templates/Greater.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/CoreNetTypes.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/LazyObjectPtr.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/PersistentObjectPtr.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/UObject/PropertyPortFlags.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/SoftObjectPtr.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/SoftObjectPath.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectHash.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/SparseDelegate.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/UndefineUPropertyMacros.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/DefineUPropertyMacros.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/Stack.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/EnumProperty.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/FieldPathProperty.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/CoreNet.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Serialization/BitReader.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Serialization/BitArchive.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Serialization/BitWriter.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/NetworkGuid.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Engine/EngineTypes.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Engine/NetSerialization.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/EngineLogs.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Net/Core/Public/Net/Core/Serialization/QuantizedVectorSerialization.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/MathFwd.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Net/Core/Classes/Net/Serialization/FastArraySerializer.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Net/Core/Public/Net/Core/Misc/GuidReferences.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Net/Core/Public/Net/Core/PushModel/PushModel.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Net/Core/Public/Net/Core/PushModel/PushModelMacros.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectKey.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/NetCore/FastArraySerializer.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/NetSerialization.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/EngineTypes.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Engine/EngineBaseTypes.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Net/Core/Public/Net/Core/Connection/NetEnums.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/EngineBaseTypes.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/ComponentInstanceDataCache.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/StructOnScope.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/ComponentInstanceDataCache.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Components/ChildActorComponent.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Components/SceneComponent.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Components/ActorComponent.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/EdGraph/EdGraphPin.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/EdGraph/EdGraphNode.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/EdGraphNode.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/EdGraphPin.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Interfaces/Interface_AssetUserData.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/Interface.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/Interface_AssetUserData.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/ActorComponent.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RHI/Public/RHIDefinitions.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/PixelFormat.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/SceneComponent.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/ChildActorComponent.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RenderCore/Public/RenderCommandFence.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/ITransaction.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/Change.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Engine/Level.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Templates/ScopedCallback.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Engine/MaterialMerging.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/MaterialMerging.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Engine/TextureStreamingTypes.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/SceneTypes.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/SceneTypes.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/TextureStreamingTypes.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/Level.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/WorldPartition/DataLayer/ActorDataLayer.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/ActorDataLayer.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/Folder.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/Paths.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/WorldPartition/WorldPartitionActorDescType.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/Actor.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/Misc/NotifyHook.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/UnrealEd/Classes/Editor/EditorEngine.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/SlateFwd.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/AssetRegistry/Public/AssetData.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/AssetRegistry/AssetData.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/AssetRegistry/AssetBundleData.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/AssetRegistry/AssetDataTagMap.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Containers/SortedMap.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/LinkerLoad.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/Linker.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectResource.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/PackageFileSummary.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/EngineVersion.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/PackageResourceManager.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/HAL/PlatformFile.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/GenericPlatform/GenericPlatformFile.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Mac/MacPlatformFile.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Apple/ApplePlatformFile.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectRedirector.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/ApplicationCore/Public/GenericPlatform/GenericApplication.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/ApplicationCore/Public/GenericPlatform/Accessibility/GenericAccessibleInterfaces.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/Variant.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Serialization/MemoryWriter.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Serialization/MemoryArchive.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Serialization/MemoryReader.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Memory/MemoryView.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Memory/MemoryFwd.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/ApplicationCore/Public/GenericPlatform/GenericApplicationMessageHandler.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/ApplicationCore/Public/GenericPlatform/GenericWindowDefinition.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/ApplicationCore/Public/GenericPlatform/GenericWindow.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Widgets/SWindow.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/CoreDelegates.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/AES.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Layout/Margin.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Types/SlateEnums.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/EnumRange.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/SlateCore/SlateEnums.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/SlateCore/Margin.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Styling/SlateColor.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Styling/WidgetStyle.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/SlateCore/SlateColor.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Layout/SlateRect.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Layout/Visibility.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Rendering/SlateLayoutTransform.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/TransformCalculus.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/TransformCalculus2D.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Layout/Geometry.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Layout/SlateRotatedRect.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Rendering/SlateRenderTransform.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Layout/PaintGeometry.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/SlateCore/Geometry.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Input/CursorReply.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/ApplicationCore/Public/GenericPlatform/ICursor.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Input/ReplyBase.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Input/Reply.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Input/Events.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/SlateCore/Events.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Input/DragAndDrop.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Input/DragAndDrop.inl \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Rendering/RenderingCommon.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Input/NavigationReply.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/SlateCore/NavigationReply.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Input/PopupMethodReply.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/SlateGlobals.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Debugging/SlateDebugging.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/FastUpdate/WidgetUpdateFlags.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/ProfilingDebugging/CsvProfiler.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Containers/Queue.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/ProfilingDebugging/CsvProfilerConfig.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/ProfilingDebugging/CsvProfilerTrace.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Widgets/InvalidateWidgetReason.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/SlateCore/SlateDebugging.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Trace/SlateTrace.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/SlateCore/RenderingCommon.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Types/SlateStructs.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Animation/CurveSequence.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Animation/CurveHandle.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Containers/Ticker.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Containers/MpscQueue.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Styling/SlateWidgetStyleAsset.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Styling/SlateWidgetStyle.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/SlateCore/SlateWidgetStyle.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Styling/SlateWidgetStyleContainerBase.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Styling/SlateWidgetStyleContainerInterface.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/SlateCore/SlateWidgetStyleContainerInterface.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/SlateCore/SlateWidgetStyleContainerBase.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/SlateCore/SlateWidgetStyleAsset.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Widgets/DeclarativeSyntaxSupport.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Layout/Clipping.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/SlateCore/Clipping.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Layout/FlowDirection.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/SlateCore/FlowDirection.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Types/ISlateMetaData.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Widgets/SNullWidget.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Widgets/Accessibility/SlateWidgetAccessibleTypes.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/SlotBase.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Widgets/SWidget.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/FrameValue.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Layout/ArrangedWidget.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Layout/LayoutGeometry.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Types/WidgetActiveTimerDelegate.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Types/WidgetMouseEventsDelegate.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Textures/SlateShaderResource.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Types/PaintArgs.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Types/SlateAttribute.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Templates/EqualTo.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Types/Attributes/SlateAttributeDefinition.inl \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Types/Attributes/SlateAttributeBase.inl \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Types/Attributes/SlateAttributeContained.inl \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Types/Attributes/SlateAttributeManaged.inl \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Types/Attributes/SlateAttributeMember.inl \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/FastUpdate/WidgetProxy.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/FastUpdate/SlateInvalidationRootHandle.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/FastUpdate/SlateInvalidationWidgetIndex.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/FastUpdate/SlateInvalidationWidgetSortOrder.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Rendering/DrawElements.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/GCObject.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Fonts/ShapedTextFwd.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Fonts/SlateFontInfo.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Fonts/CompositeFont.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/SlateCore/CompositeFont.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/SlateCore/SlateFontInfo.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Fonts/FontCache.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Textures/TextureAtlas.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Fonts/FontTypes.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/SlateCore/FontCache.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Rendering/ShaderResourceManager.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Styling/SlateBrush.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/SlateCore/SlateBrush.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Textures/SlateTextureData.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Rendering/DrawElementPayloads.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Rendering/SlateRenderBatch.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Rendering/ElementBatcher.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Containers/StaticArray.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Widgets/SlateControlledConstruction.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Types/SlateAttributeDescriptor.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Widgets/SCompoundWidget.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Layout/Children.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Layout/ChildrenBase.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Types/ReflectionMetadata.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Layout/BasicLayoutWidgetSlot.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Layout/WidgetSlotWithAttributeSupport.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Widgets/SBoxPanel.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Widgets/SPanel.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Layout/ArrangedChildren.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Widgets/SOverlay.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Styling/SlateTypes.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Sound/SlateSound.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/SlateCore/SlateSound.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/SlateCore/SlateTypes.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Styling/CoreStyle.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Styling/ISlateStyle.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Styling/StyleDefaults.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Brushes/SlateNoResource.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Styling/AppStyle.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/FastUpdate/SlateInvalidationRoot.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/TimerManager.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectAnnotation.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Engine/Brush.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/Brush.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/Model.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RenderCore/Public/RenderResource.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RHI/Public/RHI.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RHI/Public/MultiGPU.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RHI/Public/RHIValidationCommon.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RHI/Public/RHIResources.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RHI/Public/TextureProfiler.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Containers/ClosableMpscQueue.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RHI/Public/DynamicRHI.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RHI/Public/RHIContext.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RHI/Public/RHIBreadcrumbs.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RHI/Public/RHIUtilities.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RHI/Public/RHICommandList.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/App.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/CommandLine.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/QualifiedFrameTime.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/FrameRate.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/FrameTime.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/ExpressionParserTypes.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Templates/ValueOrError.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/ExpressionParserTypes.inl \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/Timecode.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RHI/Public/RHICommandList.inl \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RenderCore/Public/RenderCore.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Containers/DynamicRHIResourceArray.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Containers/ResourceArray.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RenderCore/Public/PackedNormal.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/RawIndexBuffer.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/LocalVertexFactory.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RenderCore/Public/ShaderParameters.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/Components.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RenderCore/Public/VertexFactory.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RenderCore/Public/ShaderCore.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RenderCore/Public/UniformBuffer.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RenderCore/Public/ShaderParameterMacros.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RenderCore/Public/ShaderParameterMetadata.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RenderCore/Public/RenderGraphAllocator.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RenderCore/Public/RenderingThread.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RenderCore/Public/Shader.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RenderCore/Public/ShaderPermutation.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RenderCore/Public/ShaderCodeLibrary.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/UObject/RenderingObjectVersion.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/UObject/DebugSerializationFlags.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/Components.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/StaticMeshResources.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectIterator.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Materials/MaterialInterface.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/MaterialTypes.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/Shader/ShaderTypes.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/MaterialTypes.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Engine/BlendableInterface.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/BlendableInterface.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Materials/MaterialLayersFunctions.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/MaterialLayersFunctions.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/MaterialSceneTextureId.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/MaterialSceneTextureId.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Materials/MaterialRelevance.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/MaterialCachedData.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/MaterialCachedData.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/Physics/PhysicsInterfaceCore.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/Physics/PhysicsInterfaceDeclares.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/PhysicsCore/Public/PhysicsInterfaceDeclaresCore.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/PhysicsCore/Public/ChaosSQTypes.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/PhysicsCore/Public/PhysicsInterfaceWrapperShared.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Experimental/Chaos/Public/Chaos/Declares.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Experimental/Chaos/Public/Chaos/ParticleHandleFwd.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Experimental/ChaosCore/Public/Chaos/Real.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Experimental/Chaos/Public/Chaos/PBDRigidsEvolutionFwd.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Experimental/Chaos/Public/PhysicsProxy/SingleParticlePhysicsProxyFwd.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/PhysicsCore/Public/PhysicsCore.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/Physics/Experimental/PhysInterface_Chaos.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/Physics/Experimental/ChaosInterfaceWrapper.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/PhysicsCore/Public/ChaosInterfaceWrapperCore.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/PhysicsCore/Public/PhysicsInterfaceTypesCore.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Experimental/Chaos/Public/Chaos/CollisionFilterData.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Experimental/Chaos/Public/Chaos/ChaosArchive.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Experimental/Chaos/Public/Chaos/Serializable.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/UObject/DestructionObjectVersion.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/UObject/ExternalPhysicsCustomObjectVersion.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/PhysicsCore/Public/PhysXPublicCore.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/PhysicsCore/Public/PhysicsInterfaceUtilsCore.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/PhysicsCore/Public/CollisionQueryFilterCallbackCore.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Engine/Engine.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Engine/World.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreOnline/Public/Online/CoreOnlineFwd.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/CollisionQueryParams.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/PhysicsCore/Public/Chaos/ChaosEngineInterface.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/PhysicsCore/ChaosEngineInterface.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/WorldCollision.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/PhysicsCore/Public/CollisionShape.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/GameFramework/Pawn.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/AI/Navigation/NavAgentInterface.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/AI/Navigation/NavigationTypes.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/NavigationTypes.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/NavAgentInterface.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/Pawn.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/EngineDefines.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Engine/Blueprint.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Engine/BlueprintCore.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/BlueprintCore.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Engine/BlueprintGeneratedClass.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/BlueprintGeneratedClass.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/Blueprint/BlueprintSupport.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/Blueprint.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Engine/PendingNetGame.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Engine/NetworkDelegates.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/PendingNetGame.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Engine/LatentActionManager.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/LatentActionManager.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Engine/GameInstance.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/Subsystems/GameInstanceSubsystem.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/Subsystems/Subsystem.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/Subsystem.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/GameInstanceSubsystem.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/Subsystems/SubsystemCollection.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/GameFramework/OnlineReplStructs.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreOnline/Public/Online/CoreOnline.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreOnline/Public/Online/CoreOnlinePackage.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/OnlineReplStructs.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/UnrealEd/Classes/Settings/LevelEditorPlaySettings.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/UnrealEd/Classes/Settings/LevelEditorPlayNetworkEmulationSettings.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/PropertyEditor/Public/IPropertyTypeCustomization.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/EditorStyle/Public/EditorStyleSet.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/PropertyEditor/Public/PropertyHandle.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/PropertyEditor/Public/PropertyEditorModule.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/PropertyEditor/Public/IDetailsView.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/PropertyEditor/Public/PropertyEditorDelegates.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Framework/Commands/UIAction.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Textures/SlateIcon.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Framework/Commands/UICommandList.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Framework/Commands/UICommandInfo.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Framework/Commands/InputChord.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Slate/InputChord.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Slate/UICommandInfo.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/PropertyEditor/Public/DetailsViewArgs.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Widgets/Input/SComboBox.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Framework/SlateDelegates.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Framework/Application/SlateApplication.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Framework/Application/IMenu.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Application/SlateWindowHelper.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Rendering/SlateRenderer.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Brushes/SlateDynamicImageBrush.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Application/SlateApplicationBase.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Application/ThrottleManager.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Widgets/IToolTip.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Layout/WidgetPath.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Layout/WidgetPath.inl \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Framework/Application/MenuStack.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Framework/Application/GestureDetector.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Framework/Application/SlateUser.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/SlateScope.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Widgets/Text/STextBlock.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Widgets/SLeafWidget.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Framework/Text/TextLayout.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Framework/Text/TextRunRenderer.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Framework/Text/TextLineHighlight.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Framework/Text/IRun.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Framework/Text/ShapedTextCacheFwd.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Slate/TextLayout.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Widgets/Layout/SBox.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Widgets/Input/SComboButton.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Widgets/Input/SMenuAnchor.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Widgets/Views/STableViewBase.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Framework/Layout/IScrollableWidget.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Framework/Views/ITypedTableView.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Slate/ITypedTableView.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Framework/Layout/InertialScrollManager.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Framework/Layout/Overscroll.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Slate/STableViewBase.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Framework/Views/TableViewTypeTraits.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Widgets/Views/STableRow.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Widgets/Views/ITableRow.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Widgets/Layout/SBorder.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Widgets/Views/SExpanderArrow.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Widgets/Views/SHeaderRow.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Widgets/Layout/SSplitter.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Widgets/Accessibility/SlateCoreAccessibleWidgets.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Widgets/Accessibility/SlateAccessibleWidgetCache.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Widgets/Accessibility/SlateAccessibleMessageHandler.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Widgets/Views/SListView.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Framework/Views/TableViewMetadata.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Types/SlateConstants.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Widgets/Layout/SScrollBar.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/UnrealEd/LevelEditorPlayNetworkEmulationSettings.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Developer/ToolMenus/Public/ToolMenuContext.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/ToolMenus/ToolMenuContext.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/UnrealEd/LevelEditorPlaySettings.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/GameInstance.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Particles/WorldPSCPool.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/WorldPSCPool.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/AudioDeviceManager.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/AudioMixerCore/Public/AudioDefines.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/AudioThread.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Tasks/Pipe.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Tasks/Task.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Tasks/TaskPrivate.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/Timeout.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Containers/SpscQueue.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/SpinLock.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/Subsystems/WorldSubsystem.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/Tickable.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/WorldSubsystem.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Engine/CollisionProfile.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/DeveloperSettings/Public/Engine/DeveloperSettings.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/DeveloperSettings/DeveloperSettings.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/CollisionProfile.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/World.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/BufferedOutputDevice.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/Subsystems/EngineSubsystem.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/EngineSubsystem.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/Engine.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/PhysicsEngine/ConstraintTypes.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/ConstraintTypes.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/Physics/PhysicsInterfaceTypes.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/EngineGlobals.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/PhysicsCore/Public/BodySetupEnums.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/PhysicsCore/BodySetupEnums.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/Physics/GenericPhysicsInterface.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/Physics/Experimental/PhysicsUserData_Chaos.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/Physics/Experimental/PhysScene_Chaos.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/Physics/PhysScene.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/PhysicsPublic.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/DynamicMeshBuilder.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/HitProxies.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/TypedElementFramework/Public/Elements/Framework/TypedElementHandle.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/TypedElementFramework/Public/Elements/Framework/TypedElementData.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/HAL/PlatformStackWalk.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Mac/MacPlatformStackWalk.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Apple/ApplePlatformStackWalk.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/GenericPlatform/GenericPlatformStackWalk.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/TypedElementFramework/Public/Elements/Framework/TypedElementId.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/TypedElementFramework/Public/Elements/Framework/TypedElementLimits.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/TypedElementFramework/TypedElementHandle.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RenderCore/Public/RenderUtils.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/SceneManagement.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/ConvexVolume.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RenderCore/Public/RendererInterface.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RenderCore/Public/VirtualTexturing.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RenderCore/Public/RenderGraphDefinitions.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RenderCore/Public/ProfilingDebugging/RealtimeGPUProfiler.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RHI/Public/GpuProfilerTrace.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Engine/TextureLightProfile.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Engine/Texture2D.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Engine/Texture.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Interfaces/Interface_AsyncCompilation.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/Interface_AsyncCompilation.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/Serialization/EditorBulkData.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Compression/CompressedBuffer.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Memory/CompositeBuffer.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Memory/SharedBuffer.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/IO/IoHash.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Hash/Blake3.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/Misc/PackageSegment.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Engine/TextureDefines.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/TextureDefines.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/MaterialShared.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/StaticParameterSet.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/UObject/FortniteMainBranchObjectVersion.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/UObject/ReleaseObjectVersion.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/UObject/UE5ReleaseStreamObjectVersion.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/StaticParameterSet.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/Shader/Preshader.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/Shader/PreshaderTypes.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/TextureResource.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Async/AsyncFileHandle.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/Serialization/BulkData.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Serialization/FileRegions.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/Serialization/BulkDataCommon.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/Serialization/BulkData2.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/Serialization/BulkDataBuffer.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/IO/IoDispatcher.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/IO/IoContainerId.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/IEngineCrypto.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Features/IModularFeatures.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/UnrealClient.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/TypedElementFramework/Public/Elements/Framework/TypedElementListFwd.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Engine/StreamableRenderAsset.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/RenderAssetUpdate.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/Streaming/StreamableRenderResourceState.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/PerQualityLevelProperties.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Algo/Find.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Algo/Impl/RangePointerType.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/Scalability.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/HAL/ConsoleManager.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/PerQualityLevelProperties.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/StreamableRenderAsset.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/PerPlatformProperties.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/DataDrivenPlatformInfoRegistry.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/PerPlatformProperties.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/FieldAccessor.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/DerivedDataCacheKeyProxy.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Templates/DontCopy.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/Texture.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/Texture2D.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/TextureLightProfile.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/BatchedElements.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/LargeWorldRenderPosition.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/SceneView.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/ShowFlags.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/ShowFlagsValues.inl \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Engine/GameViewportClient.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Engine/ScriptViewportClient.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/ScriptViewportClient.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Engine/ViewportSplitScreen.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Engine/TitleSafeZone.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Engine/GameViewportDelegates.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Engine/DebugDisplayProperty.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/DebugDisplayProperty.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/StereoRendering.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/GameViewportClient.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/SceneInterface.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/SceneUtils.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Math/SHMath.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/FinalPostProcessSettings.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Engine/Scene.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/Scene.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/BlendableManager.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Renderer/Public/GlobalDistanceFieldParameters.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RHI/Public/RHIStaticStates.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/ScopedEvent.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/DebugViewModeHelpers.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Interfaces/Interface_PostProcessVolume.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/Interface_PostProcessVolume.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RenderCore/Public/StaticBoundShaderState.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RHI/Public/PipelineStateCache.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/MeshBatch.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/PrimitiveUniformShaderParameters.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/InstanceUniformShaderParameters.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RenderCore/Public/RenderTransform.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/LightmapUniformShaderParameters.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RenderCore/Public/UnifiedBuffer.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/VT/RuntimeVirtualTextureEnum.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/RuntimeVirtualTextureEnum.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/GPUSceneWriter.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/RenderCore/Public/DynamicBufferAllocator.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/Rendering/SkyAtmosphereCommonData.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/PhysicsCore/Public/PhysicsPublicCore.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/Physics/PhysicsInterfaceUtils.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/PhysXPublic.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Containers/Union.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/PhysicsCore/Public/Chaos/ChaosScene.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Experimental/Chaos/Public/Framework/Threading.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Experimental/Chaos/Public/PhysicsCoreTypes.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Chaos/PhysicsCoreTypes.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Experimental/Chaos/Public/ChaosLog.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Async/ParallelFor.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Experimental/ChaosCore/Public/Chaos/Core.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Experimental/ChaosCore/Public/Chaos/Vector.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Experimental/ChaosCore/Public/Chaos/Array.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Experimental/ChaosCore/Public/Chaos/Pair.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Experimental/ChaosCore/Public/Chaos/Matrix.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Experimental/Chaos/Public/Chaos/Rotation.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Experimental/Chaos/Public/Chaos/Transform.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Experimental/Chaos/Public/Chaos/CollisionResolutionTypes.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Experimental/Chaos/Public/Chaos/SimCallbackInput.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Experimental/Chaos/Public/Chaos/Defines.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Logging/MessageLog.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Logging/TokenizedMessage.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Experimental/Chaos/Public/Chaos/SimCallbackObject.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Experimental/Chaos/Public/Chaos/ContactModification.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/MaterialInterface.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/PrimitiveViewRelevance.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/PrimitiveSceneProxy.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/DrawDebugHelpers.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Engine/MeshMerging.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/MeshMerging.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Components/StaticMeshComponent.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Components/MeshComponent.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Components/PrimitiveComponent.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/PhysicsEngine/BodyInstance.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/PhysxUserData.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/PhysicsCore/Public/BodyInstanceCore.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/PhysicsCore/BodyInstanceCore.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/BodyInstance.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/AI/Navigation/NavRelevantInterface.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/AI/NavigationModifier.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/AI/Navigation/NavLinkDefinition.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/NavLinkDefinition.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/NavRelevantInterface.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/HLOD/HLODBatchingPolicy.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/PrimitiveComponent.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/MeshComponent.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Launch/Resources/Version.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/StaticMeshComponent.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/Rendering/ColorVertexBuffer.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/StaticMeshVertexData.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/Rendering/StaticMeshVertexDataInterface.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/Rendering/StaticMeshVertexBuffer.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/Rendering/PositionVertexBuffer.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/Rendering/NaniteResources.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/GrowOnlySpanAllocator.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/MemoryReadStream.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Shaders/Shared/NaniteDefinitions.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/WeightedRandomSampler.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/UnrealEd/Classes/Editor/Transactor.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Serialization/ArchiveSerializedPropertyChain.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/UnrealEd/Transactor.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/UnrealEd/Classes/Settings/LevelEditorViewportSettings.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/UnrealEd/Public/Viewports.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/UnrealEd/Classes/Editor/UnrealEdTypes.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/UnrealEd/UnrealEdTypes.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/UnrealEd/LevelEditorViewportSettings.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/CompilationResult.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Developer/TargetPlatform/Public/Interfaces/ITargetPlatform.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Developer/TargetPlatform/Public/Interfaces/ITargetDevice.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Developer/TargetPlatform/Public/Interfaces/TargetDeviceId.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Developer/TargetPlatform/Public/Interfaces/ITargetPlatformManagerModule.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/UnrealEd/Public/PlayInEditorDataTypes.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/UnrealEd/PlayInEditorDataTypes.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/EditorSubsystem/Public/EditorSubsystem.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/EditorSubsystem/EditorSubsystem.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/UnrealEngine.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/UnrealEd/EditorEngine.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/UnrealEd/Public/IPackageAutoSaver.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Developer/SourceControl/Public/ISourceControlProvider.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Developer/SourceControl/Public/ISourceControlOperation.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Developer/SourceControl/Public/ISourceControlChangelist.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Developer/SourceControl/Public/ISourceControlState.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Developer/SourceControl/Public/ISourceControlChangelistState.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/UnrealEd/Public/ComponentVisualizer.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/UnrealEd/ComponentVisualizer.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/UnrealEd/Public/ComponentVisualizerManager.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/UnrealEd/UnrealEdEngine.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/UnrealEd/Public/Kismet2/DebuggerCommands.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Framework/Commands/Commands.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Framework/Commands/InputBindingManager.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/LevelEditor/Public/LevelEditor.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Framework/Docking/TabManager.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Framework/Docking/WorkspaceItem.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Framework/MultiBox/MultiBoxExtender.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Framework/Docking/LayoutService.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/LevelEditor/Public/ILevelEditor.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/Elements/Framework/EngineElementsLibrary.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Kismet/BlueprintFunctionLibrary.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/BlueprintFunctionLibrary.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/EngineElementsLibrary.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/UnrealEd/Public/AssetThumbnail.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/UnrealEd/Public/TickableEditorObject.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/EditorFramework/Public/Toolkits/IToolkitHost.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/UnrealEd/Public/Toolkits/AssetEditorToolkit.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/EditorFramework/Public/Toolkits/IToolkit.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/UnrealEd/Public/Toolkits/BaseToolkit.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/EditorFramework/Public/Tools/Modes.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/UnrealEd/Public/UnrealEdMisc.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/UnrealEd/Public/Editor.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Engine/StaticMesh.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/StrongObjectPtr.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Interfaces/Interface_CollisionDataProvider.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/PhysicsCore/Public/Interface_CollisionDataProviderCore.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/Interface_CollisionDataProvider.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Engine/StaticMeshSourceData.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/MeshDescription/Public/MeshDescriptionBaseBulkData.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/MeshDescription/MeshDescriptionBaseBulkData.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/StaticMeshSourceData.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/MeshDescription/Public/MeshTypes.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/MeshDescription/MeshTypes.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/StaticMesh.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/UnrealEd/Public/Subsystems/ImportSubsystem.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/UnrealEd/ImportSubsystem.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/UnrealEd/Public/Subsystems/AssetEditorSubsystem.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/UnrealEd/AssetEditorSubsystem.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/LevelEditor/Public/ViewportTypeDefinition.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/LevelEditor/Public/LevelEditorActions.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/EditorFramework/Public/UnrealWidgetFwd.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/UnrealEd/Classes/TexAligner/TexAligner.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/UnrealEd/TexAligner.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/LevelEditor/Public/LightmapResRatioAdjust.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Public/Elements/Interfaces/TypedElementWorldInterface.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/TypedElementWorldInterface.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/FeedbackContext.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/SlowTask.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/SlowTaskStack.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/UnrealEd/Public/IAssetViewport.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Slate/Public/Widgets/SViewport.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/UnrealEd/Public/EditorViewportClient.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/Camera/CameraTypes.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/CameraTypes.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/UnrealEd/Public/EditorComponents.h
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/ScopeRWLock.h

@@ -1745,26 +1745,26 @@
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/IQueuedWork.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/QueuedThreadPool.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/Fork.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/AssetRegistry/Public/AssetData.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/AssetRegistry/AssetData.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/AssetRegistry/AssetBundleData.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/PrimaryAssetId.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/SoftObjectPtr.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/Object.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/UnrealEdMessages/Classes/AssetEditorMessages.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectMacros.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/Script.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/CoreMisc.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectMacros.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectBaseUtility.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectBase.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/UnrealEdMessages/AssetEditorMessages.generated.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/ScriptMacros.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/ScriptInterface.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectGlobals.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/PrimaryAssetId.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/LinkerInstancingContext.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/OutputDeviceRedirector.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/Misc/PackagePath.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/Serialization/ArchiveUObject.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/Templates/Casts.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/Object.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectBaseUtility.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectBase.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectArray.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectMarks.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/ProfilingDebugging/ResourceSize.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/Templates/Casts.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectPtr.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/Class.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Concepts/GetTypeHashable.h \
@@ -1802,28 +1802,6 @@
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/Field.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/WeakObjectPtr.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/PropertyTag.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/PersistentObjectPtr.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/SoftObjectPath.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectHash.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/AssetRegistry/AssetDataTagMap.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Containers/SortedMap.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/LinkerLoad.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/LazyObjectPtr.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/Linker.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectResource.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/PackageFileSummary.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/EngineVersion.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/PackageResourceManager.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/HAL/PlatformFile.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/GenericPlatform/GenericPlatformFile.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Mac/MacPlatformFile.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Apple/ApplePlatformFile.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Modules/ModuleInterface.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectRedirector.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/UnrealEdMessages/Classes/AssetEditorMessages.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/UnrealEdMessages/AssetEditorMessages.generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/ScriptMacros.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/ScriptInterface.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/UnrealType.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Containers/List.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/Serialization/SerializedPropertyScope.h \
@@ -1831,7 +1809,12 @@
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Containers/HashTable.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Templates/Greater.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/CoreNetTypes.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/LazyObjectPtr.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/PersistentObjectPtr.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/UObject/PropertyPortFlags.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/SoftObjectPtr.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/SoftObjectPath.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectHash.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/SparseDelegate.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/UndefineUPropertyMacros.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/DefineUPropertyMacros.h \
@@ -1844,6 +1827,23 @@
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/EdGraphNode.generated.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/EdGraphPin.generated.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/EdGraph/EdGraphSchema.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/AssetRegistry/Public/AssetData.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/AssetRegistry/AssetData.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/AssetRegistry/AssetBundleData.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/AssetRegistry/AssetDataTagMap.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Containers/SortedMap.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/LinkerLoad.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/Linker.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectResource.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/PackageFileSummary.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Misc/EngineVersion.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/PackageResourceManager.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/HAL/PlatformFile.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/GenericPlatform/GenericPlatformFile.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Mac/MacPlatformFile.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Apple/ApplePlatformFile.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Core/Public/Modules/ModuleInterface.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectRedirector.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectKey.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/SlateCore/Public/Input/Reply.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/InputCore/Classes/InputCoreTypes.h \
@@ -2723,18 +2723,22 @@
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Messaging/Public/IMessageBusListener.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/MessagingCommon/Public/MessageHandlers.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/UnrealEd/Public/Kismet2/KismetEditorUtilities.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderBlueprint/Private/RiderBlueprint.cpp \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderBlueprint/Public/RiderBlueprint.hpp \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/lifetime/LifetimeDefinition.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/core_traits.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/types/Void.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/lifetime/LifetimeImpl.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/std/hash.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/map \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/is_transparent.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__node_handle \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/optional \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__tree \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/UnrealEd/Public/Kismet2/BlueprintEditorUtils.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/Engine/Classes/EdGraph/EdGraph.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/Engine/EdGraph.generated.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/BlueprintGraph/Classes/K2Node_EditablePinBase.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/BlueprintGraph/Classes/K2Node.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/BlueprintGraph/Public/BlueprintNodeSignature.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/BlueprintGraph/K2Node.generated.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/BlueprintGraph/K2Node_EditablePinBase.generated.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/ClassViewer/Public/ClassViewerModule.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Editor/BlueprintGraph/Classes/EdGraphSchema_K2.h \
+  /Users/Shared/Epic\ Games/UE_5.0/Engine/Intermediate/Build/Mac/x86_64/UnrealEditor/Inc/BlueprintGraph/EdGraphSchema_K2.generated.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/RdEditorModel/RdEditorModel.Generated.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/protocol/Protocol.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IProtocol.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IRdDynamic.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/impl/RName.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/thirdparty.hpp \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/ordered-map/include/tsl/ordered_set.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/deque \
@@ -2742,20 +2746,15 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/vector \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/ordered-map/include/tsl/ordered_hash.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/ordered-map/include/tsl/ordered_map.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/optional \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/string-view-lite/include/nonstd/string_view.hpp \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/rd_core_export.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/lifetime/Lifetime.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/IRiderLink.hpp \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/RdEditorModel/RdEditorModel.Generated.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/protocol/Protocol.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IProtocol.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IRdDynamic.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/impl/RName.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/rd_framework_export.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/Serializers.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/protocol/RdId.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/protocol/Buffer.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/types/DateTime.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/std/hash.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/rd_core_export.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/core_util.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/erase_if.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/gen_util.h \
@@ -2768,6 +2767,8 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/future \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/codecvt \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/types/wrapper.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/core_traits.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/types/Void.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/spdlog.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/common.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/tweakme.h \
@@ -2777,7 +2778,9 @@
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/format.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/registry.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/unordered_map \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/is_transparent.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__hash_table \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__node_handle \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/logger.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/log_msg.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/details/backtracer.h \
@@ -2797,6 +2800,10 @@
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/scheduler/base/IScheduler.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IWire.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/interfaces.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/lifetime/Lifetime.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/lifetime/LifetimeImpl.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/map \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__tree \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IRdReactive.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IRdBindable.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/base/IRdWireable.h \
@@ -2806,6 +2813,7 @@
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/SignalCookie.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/reactive/base/IPropertyBase.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/lifetime/SequentialLifetimes.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/lifetime/LifetimeDefinition.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/serialization/SerializationCtx.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/regex \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/intern/InternRoot.h \
@@ -2848,16 +2856,19 @@
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/RdSymmetricCall.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/enum.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/instantiations_RdEditorRoot.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UnrealLogEvent.Generated.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ConnectionInfo.Generated.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/instantiations_UE4Library.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/UE4TypesMarshallers.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UnrealLogEvent.Generated.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/LogMessageInfo.Generated.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/StringRange.Generated.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/BlueprintReference.Generated.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UClass.Generated.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/PlayState.Generated.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestResultBase.Generated.h \
-  /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/AssetRegistry/Public/AssetRegistryModule.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderBlueprint/Private/RiderBlueprint.cpp \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderBlueprint/Public/RiderBlueprint.hpp \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/IRiderLink.hpp \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/AssetRegistry/Public/AssetRegistry/AssetRegistryModule.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/AssetRegistry/Public/AssetRegistry/IAssetRegistry.h \
   /Users/Shared/Epic\ Games/UE_5.0/Engine/Source/Runtime/CoreUObject/Public/AssetRegistry/ARFilter.h \

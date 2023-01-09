@@ -1946,9 +1946,10 @@
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_framework_cpp/src/main/task/RdSymmetricCall.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/util/enum.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/instantiations_RdEditorRoot.h \
-  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UnrealLogEvent.Generated.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ConnectionInfo.Generated.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/instantiations_UE4Library.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/UE4TypesMarshallers.h \
+  /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UnrealLogEvent.Generated.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/LogMessageInfo.Generated.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/StringRange.Generated.h \
   /Users/doluo/Unreal\ Projects/ActionRoguelike/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/BlueprintReference.Generated.h \

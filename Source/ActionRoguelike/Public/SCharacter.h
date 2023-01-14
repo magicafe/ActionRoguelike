@@ -18,6 +18,9 @@ class ACTIONROGUELIKE_API ASCharacter : public ACharacter
 	GENERATED_BODY()
 
 protected:
+	UPROPERTY(EditDefaultsOnly, Category="Attack")
+	float AttackAnimDelay;
+	
 	UPROPERTY(EditAnywhere, Category="Attack")
 	TSubclassOf<AActor> ProjectileClass;
 
@@ -27,8 +30,12 @@ protected:
 	UPROPERTY(EditAnywhere, Category="Skill")
 	TSubclassOf<AActor> BlackholeProjectileClass;
 
+	UPROPERTY(EditAnywhere, Category="Skill")
+	TSubclassOf<AActor> DashProjectileClass;
+
 	FTimerHandle TimerHandle_PrimaryAttack;
-	FTimerHandle TimerHandle_SkillAttack;
+	FTimerHandle TimerHandle_BlackHoleAttack;
+	FTimerHandle TimerHandle_Dash;
 
 public:
 	// Sets default values for this character's properties
@@ -60,9 +67,15 @@ protected:
 
 	void PrimaryInteract();
 
-	void SkillAttack();
+	void BlackHoleAttack();
 
-	void SkillAttack_TimeElapsed();
+	void BlackHoleAttack_TimeElapsed();
+
+	void Dash();
+
+	void Dash_TimeElapsed();
+
+	void SpawnProjectile(TSubclassOf<AActor> ClassToSpawn);
 	
 public:	
 	// Called every frame

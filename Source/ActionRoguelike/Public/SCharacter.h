@@ -76,6 +76,9 @@ protected:
 	void Dash_TimeElapsed();
 
 	void SpawnProjectile(TSubclassOf<AActor> ClassToSpawn);
+
+	UFUNCTION()
+	void OnHealthChanged(AActor* InstigatorActor, USAttributeComponent* OwningComp, float NewHealth, float Delta);
 	
 public:	
 	// Called every frame
@@ -84,4 +87,5 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	virtual void PostInitializeComponents() override;
 };

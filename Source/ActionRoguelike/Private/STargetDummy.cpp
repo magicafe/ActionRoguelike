@@ -13,8 +13,13 @@ ASTargetDummy::ASTargetDummy()
 	AttributeComp->OnHealthChanged.AddDynamic(this, &ASTargetDummy::OnHealthChanged);
 }
 
+void ASTargetDummy::BeginDestroy()
+{
+	Super::BeginDestroy();
+}
+
 void ASTargetDummy::OnHealthChanged(AActor* InstigatorActor, USAttributeComponent* OwningComp, float NewHealth,
-	float Delta)
+                                    float Delta)
 {
 	UE_LOG(LogTemp, Warning, TEXT("On Hit"));
 	if (Delta < 0.0f)

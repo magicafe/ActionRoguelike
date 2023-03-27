@@ -22,8 +22,9 @@ void ASMagicProjectile::OnActorOverlap(UPrimitiveComponent* OverlappedComponent,
 	{
 		if (USAttributeComponent* AttributeComp = Cast<USAttributeComponent>(OtherActor->GetComponentByClass(USAttributeComponent::StaticClass())))
 		{
+			UE_LOG(LogTemp, Warning, TEXT("Hit Property"));
 			AttributeComp->ApplyHealthChange(-DamageAmount);
-			Destroy();
+			//Destroy();
 		}
 	}
 }

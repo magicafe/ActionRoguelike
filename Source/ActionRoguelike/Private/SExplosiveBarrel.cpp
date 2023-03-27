@@ -29,7 +29,7 @@ void ASExplosiveBarrel::PostInitializeComponents()
 {
 	Super::PostInitializeComponents();
 
-	MeshComp->OnComponentHit.AddDynamic(this, &ASExplosiveBarrel::OnProjectileHit);
+	MeshComp->OnComponentBeginOverlap.AddDynamic(this, &ASExplosiveBarrel::OnProjectileHit);
 }
 
 // Called when the game starts or when spawned
@@ -38,8 +38,7 @@ void ASExplosiveBarrel::BeginPlay()
 	Super::BeginPlay();
 }
 
-void ASExplosiveBarrel::OnProjectileHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp,
-	FVector NormalImpulse, const FHitResult& Hit)
+void ASExplosiveBarrel::OnProjectileHit(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
 	GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Green, TEXT("Projectile hit"));
 	RadialForceComp->FireImpulse();

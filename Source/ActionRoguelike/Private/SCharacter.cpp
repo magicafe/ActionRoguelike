@@ -35,7 +35,7 @@ void ASCharacter::PostInitializeComponents()
 {
 	Super::PostInitializeComponents();
 
-	//AttributeComp->OnHealthChanged.AddDynamic(this, &ASCharacter::OnHealthChanged);
+	AttributeComp->OnHealthChanged.AddDynamic(this, &ASCharacter::OnHealthChanged);
 }
 
 // Called when the game starts or when spawned
@@ -149,7 +149,7 @@ void ASCharacter::SpawnProjectile(TSubclassOf<AActor> ClassToSpawn)
 void ASCharacter::OnHealthChanged(AActor* InstigatorActor, USAttributeComponent* OwningComp, float NewHealth,
 	float Delta)
 {
-	if (NewHealth < 0 && Delta < 0)
+	if (NewHealth <= 0 && Delta < 0)
 	{
 		APlayerController* PC = Cast<APlayerController>(GetController());
 		DisableInput(PC);

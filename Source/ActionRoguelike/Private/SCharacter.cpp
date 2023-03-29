@@ -59,7 +59,7 @@ void ASCharacter::MoveRight(float value)
 	FRotator ControlRot = GetControlRotation();
 	ControlRot.Pitch = 0;
 	ControlRot.Roll = 0;
-	FVector RightVector = FRotationMatrix(ControlRot).GetScaledAxis(EAxis::Y);
+	const FVector RightVector = FRotationMatrix(ControlRot).GetScaledAxis(EAxis::Y);
 	AddMovementInput(RightVector, value);
 }
 

@@ -6,6 +6,7 @@
 #include "SAttributeComponent.h"
 #include "SInteractionComponent.h"
 #include "Camera/CameraComponent.h"
+#include "Components/CapsuleComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Kismet/KismetMathLibrary.h"
@@ -29,6 +30,9 @@ ASCharacter::ASCharacter()
 
 	GetCharacterMovement()->bOrientRotationToMovement = true;
 	bUseControllerRotationYaw = false;
+
+	GetMesh()->SetGenerateOverlapEvents(true);
+	GetCapsuleComponent()->SetGenerateOverlapEvents(false);
 }
 
 void ASCharacter::PostInitializeComponents()

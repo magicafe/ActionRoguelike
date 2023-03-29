@@ -9,6 +9,8 @@
 class USphereComponent;
 class UProjectileMovementComponent;
 class UParticleSystemComponent;
+class UAudioComponent;
+class USoundCue;
 
 UCLASS(Abstract)
 class ACTIONROGUELIKE_API ASProjectileBase : public AActor
@@ -22,6 +24,9 @@ public:
 protected:
 	UPROPERTY(EditDefaultsOnly, Category="Effects")
 	UParticleSystem* ImpactVFX;
+
+	UPROPERTY(EditDefaultsOnly, Category="Sound")
+	USoundCue* ImpactSound;
 	
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Components")
 	USphereComponent* SphereComp;
@@ -31,6 +36,9 @@ protected:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Components")
 	UParticleSystemComponent* EffectComp;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Components")
+	UAudioComponent* AudioComp;
 
 	UFUNCTION()
 	virtual void OnActorHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);

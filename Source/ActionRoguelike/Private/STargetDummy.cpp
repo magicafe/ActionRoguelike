@@ -21,7 +21,6 @@ void ASTargetDummy::BeginDestroy()
 void ASTargetDummy::OnHealthChanged(AActor* InstigatorActor, USAttributeComponent* OwningComp, float NewHealth,
                                     float Delta)
 {
-	UE_LOG(LogTemp, Warning, TEXT("On Hit"));
 	if (Delta < 0.0f)
 	{
 		MeshComp->SetScalarParameterValueOnMaterials("TimeToHit", GetWorld()->TimeSeconds);

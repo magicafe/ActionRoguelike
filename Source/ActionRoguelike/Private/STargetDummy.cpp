@@ -23,6 +23,7 @@ void ASTargetDummy::OnHealthChanged(AActor* InstigatorActor, USAttributeComponen
 {
 	if (Delta < 0.0f)
 	{
+		UE_LOG(LogTemp, Log, TEXT("Current Time: %f"), GetWorld()->TimeSeconds);
 		MeshComp->SetScalarParameterValueOnMaterials("TimeToHit", GetWorld()->TimeSeconds);
 	}
 }

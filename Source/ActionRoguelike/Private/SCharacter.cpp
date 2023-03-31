@@ -9,6 +9,7 @@
 #include "Components/CapsuleComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetMathLibrary.h"
 
 // Sets default values
@@ -112,6 +113,8 @@ void ASCharacter::SpawnProjectile(TSubclassOf<AActor> ClassToSpawn)
 {
 	if (ensure(ClassToSpawn))
 	{
+		UGameplayStatics::SpawnEmitterAttached(CastingEffect, GetMesh(), "Muzzle_01", FVector::Zero(), FRotator::ZeroRotator, EAttachLocation::SnapToTarget);
+		
 		FVector HandLocation = GetMesh()->GetSocketLocation("Muzzle_01");
 
 		FActorSpawnParameters SpawnParams;

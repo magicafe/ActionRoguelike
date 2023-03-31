@@ -33,6 +33,9 @@ protected:
 	UPROPERTY(EditAnywhere, Category="Skill")
 	TSubclassOf<AActor> DashProjectileClass;
 
+	UPROPERTY(EditAnywhere, Category="Attack")
+	UParticleSystem* CastingEffect;
+
 	FTimerHandle TimerHandle_PrimaryAttack;
 	FTimerHandle TimerHandle_BlackHoleAttack;
 	FTimerHandle TimerHandle_Dash;

@@ -37,6 +37,8 @@ void ASDashProjectile::TeleportInstigator()
 	{
 		ActorToTeleport->TeleportTo(GetActorLocation(), ActorToTeleport->GetActorRotation(), false, false);
 	}
+
+	Destroy();
 }
 
 void ASDashProjectile::BeginPlay()

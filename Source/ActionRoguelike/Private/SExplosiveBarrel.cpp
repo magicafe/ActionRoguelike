@@ -3,6 +3,7 @@
 
 #include "SExplosiveBarrel.h"
 
+#include "SAttributeComponent.h"
 #include "PhysicsEngine/RadialForceComponent.h"
 
 // Sets default values
@@ -29,7 +30,7 @@ void ASExplosiveBarrel::PostInitializeComponents()
 {
 	Super::PostInitializeComponents();
 
-	MeshComp->OnComponentBeginOverlap.AddDynamic(this, &ASExplosiveBarrel::OnProjectileHit);
+	MeshComp->OnComponentHit.AddDynamic(this, &ASExplosiveBarrel::OnActorHit);
 }
 
 // Called when the game starts or when spawned
@@ -38,10 +39,13 @@ void ASExplosiveBarrel::BeginPlay()
 	Super::BeginPlay();
 }
 
-void ASExplosiveBarrel::OnProjectileHit(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
+void ASExplosiveBarrel::OnActorHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
 {
-	GEngine->AddOnScreenDebugMessage(-1, 5, FColor::Green, TEXT("Projectile hit"));
-	RadialForceComp->FireImpulse();
+	//RadialForceComp->FireImpulse();
+	if (ensure(OtherActor))
+	{
+		UE_LOG(LogTemp, Warning, TEXT("OtherActor: %s, at game time: %f"), *GetNameSafe(OtherActor), GetWorld()->TimeSeconds);
+	}
 }
 
 // Called every frame

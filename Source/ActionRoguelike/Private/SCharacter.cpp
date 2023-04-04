@@ -34,6 +34,9 @@ ASCharacter::ASCharacter()
 
 	GetMesh()->SetGenerateOverlapEvents(true);
 	GetCapsuleComponent()->SetGenerateOverlapEvents(false);
+
+	TimeToHitParam = "TimeToHit";
+	EffectSocketName = "Muzzle_01";
 }
 
 void ASCharacter::PostInitializeComponents()
@@ -113,9 +116,9 @@ void ASCharacter::SpawnProjectile(TSubclassOf<AActor> ClassToSpawn)
 {
 	if (ensure(ClassToSpawn))
 	{
-		UGameplayStatics::SpawnEmitterAttached(CastingEffect, GetMesh(), "Muzzle_01", FVector::Zero(), FRotator::ZeroRotator, EAttachLocation::SnapToTarget);
+		UGameplayStatics::SpawnEmitterAttached(CastingEffect, GetMesh(), EffectSocketName, FVector::Zero(), FRotator::ZeroRotator, EAttachLocation::SnapToTarget);
 		
-		FVector HandLocation = GetMesh()->GetSocketLocation("Muzzle_01");
+		FVector HandLocation = GetMesh()->GetSocketLocation(EffectSocketName);
 
 		FActorSpawnParameters SpawnParams;
 		SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
@@ -158,7 +161,7 @@ void ASCharacter::OnHealthChanged(AActor* InstigatorActor, USAttributeComponent*
 {
 	if (Delta < 0)
 	{
-		GetMesh()->SetScalarParameterValueOnMaterials("TimeToHit", GetWorld()->TimeSeconds);
+		GetMesh()->SetScalarParameterValueOnMaterials(TimeToHitParam, GetWorld()->TimeSeconds);
 	}
 	
 	if (NewHealth <= 0 && Delta < 0)

@@ -32,10 +32,11 @@ float USAttributeComponent::GetHealthMax() const
 
 bool USAttributeComponent::ApplyHealthChange(float Delta)
 {
-	Health += Delta;
-	Health = FMath::Clamp(Health, 0, HealthMax);
+	float OldHealth = Health;
+	Health = FMath::Clamp(OldHealth + Delta, 0, HealthMax);
 
-	OnHealthChanged.Broadcast(nullptr, this, Health, Delta);
+	float ActualDelta = Health - OldHealth;
+	OnHealthChanged.Broadcast(nullptr, this, Health, ActualDelta);
 
-	return true;
+	return ActualDelta != 0;
 }

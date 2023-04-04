@@ -18,6 +18,12 @@ class ACTIONROGUELIKE_API ASCharacter : public ACharacter
 	GENERATED_BODY()
 
 protected:
+	UPROPERTY(VisibleAnywhere, Category="Effects")
+	FName TimeToHitParam;
+
+	UPROPERTY(VisibleAnywhere, Category="Effects")
+	FName EffectSocketName;
+	
 	UPROPERTY(EditDefaultsOnly, Category="Attack")
 	float AttackAnimDelay;
 	

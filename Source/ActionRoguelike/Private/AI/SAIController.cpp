@@ -10,7 +10,10 @@ void ASAIController::BeginPlay()
 {
 	Super::BeginPlay();
 
-	RunBehaviorTree(BehaviorTree);
+	if (ensureMsgf(BehaviorTree, TEXT("BehaviourTree is nullptr!")))
+	{
+		RunBehaviorTree(BehaviorTree);
+	}
 
 	// APawn* MyPawn = UGameplayStatics::GetPlayerPawn(this, 0);
 	// if (MyPawn)

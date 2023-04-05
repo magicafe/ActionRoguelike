@@ -19,6 +19,9 @@ public:
 	ASAICharacter();
 
 protected:
+	UPROPERTY(VisibleAnywhere, Category="Effects")
+	FName TimeToHitParam;
+	
 	UPROPERTY(VisibleAnywhere, Category="Components")
 	UPawnSensingComponent* PawnSensingComp;
 
@@ -32,4 +35,6 @@ protected:
 
 	UFUNCTION()
 	void OnHealthChanged(AActor* InstigatorActor, USAttributeComponent* OwningComp, float NewHealth, float Delta);
+
+	void SetTargetActor(AActor* NewTarget);
 };

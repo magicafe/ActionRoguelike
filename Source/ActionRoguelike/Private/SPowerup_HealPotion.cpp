@@ -21,7 +21,7 @@ void ASPowerup_HealPotion::Interact_Implementation(APawn* InstigatorPawn)
 	USAttributeComponent* AttrComp = InstigatorPawn->FindComponentByClass<USAttributeComponent>();
 	if (ensure(AttrComp) && !AttrComp->IsFullHealth())
 	{
-		AttrComp->ApplyHealthChange(HealthHeal);
+		AttrComp->ApplyHealthChange(this, HealthHeal);
 		HideAndCooldown();
 	}
 }

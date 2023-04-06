@@ -97,4 +97,7 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	virtual void PostInitializeComponents() override;
+
+	UFUNCTION(Exec)
+	void HealSelf(float Amount = 100);
 };

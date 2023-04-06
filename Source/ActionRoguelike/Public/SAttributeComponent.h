@@ -31,6 +31,9 @@ protected:
 	float HealthMax;
 
 public:
+	UFUNCTION(BlueprintCallable)
+	bool Kill(AActor* InstigatorActor);
+	
 	UFUNCTION(BlueprintCallable, Category="Attributes")
 	bool IsAlive() const;
 

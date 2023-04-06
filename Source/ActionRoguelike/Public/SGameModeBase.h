@@ -32,6 +32,9 @@ protected:
 	UPROPERTY(EditDefaultsOnly, Category="AI")
 	UCurveFloat* DifficultyCurve;
 
+	UPROPERTY(EditDefaultsOnly, Category="AI")
+	int32 CreditPerKill;
+
 	FTimerHandle TimerHandle_SpawnBots;
 
 	UFUNCTION()

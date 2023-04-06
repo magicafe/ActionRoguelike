@@ -8,12 +8,14 @@
 #include "EnvironmentQuery/EnvQueryManager.h"
 #include "EngineUtils.h"
 #include "SCharacter.h"
+#include "SPlayerState.h"
 
 static TAutoConsoleVariable<bool> CVarSpawnBots(TEXT("su.SpawnBots"), true, TEXT("Enable spawning of bots via timer."), ECVF_Cheat);
 
 ASGameModeBase::ASGameModeBase()
 {
 	SpawnTimerInterval = 2.0f;
+	CreditPerKill = 2;
 }
 
 void ASGameModeBase::StartPlay()
@@ -31,8 +33,19 @@ void ASGameModeBase::OnActorKilled(AActor* VictimActor, AActor* Killer)
 		FTimerHandle TimerHandle_RespawnDelay;
 		FTimerDelegate Delegate;
 		Delegate.BindUFunction(this, "RespawnPlayerElapsed", Player->GetController());
-		float RespawnDelay = 2.0f;
+		constexpr float RespawnDelay = 2.0f;
 		GetWorldTimerManager().SetTimer(TimerHandle_RespawnDelay, Delegate, RespawnDelay, false);
+	}
+
+	APawn* KillerPawn = Cast<APawn>(Killer);
+	if (KillerPawn && KillerPawn != VictimActor)
+	{
+		// Only Players have Player State, Bots wont have it.
+		ASPlayerState* PS = KillerPawn->GetPlayerState<ASPlayerState>();
+		if (PS)
+		{
+			PS->AddCredits(CreditPerKill);
+		}
 	}
 
 	UE_LOG(LogTemp, Log, TEXT("OnActorKilled: Victim: %s, Killer: %s"), *GetNameSafe(VictimActor), *GetNameSafe(Killer));

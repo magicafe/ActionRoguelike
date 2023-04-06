@@ -100,4 +100,6 @@ public:
 
 	UFUNCTION(Exec)
 	void HealSelf(float Amount = 100);
+
+	virtual FVector GetPawnViewLocation() const override;
 };

@@ -23,6 +23,15 @@ void ASGameModeBase::StartPlay()
 	Super::StartPlay();
 
 	GetWorldTimerManager().SetTimer(TimerHandle_SpawnBots, this, &ASGameModeBase::SpawnBotTimerElapsed, SpawnTimerInterval, true);
+
+	if (ensure(PowerupClasses.Num() > 0))
+	{
+		UEnvQueryInstanceBlueprintWrapper* QueryInstance = UEnvQueryManager::RunEQSQuery(this, PowerupSpawnQuery, this, EEnvQueryRunMode::AllMatching, nullptr);
+		if (ensure(QueryInstance))
+		{
+			QueryInstance->GetOnQueryFinishedEvent().AddDynamic(this, &ASGameModeBase::OnPowerupSpawnQueryCompleted);
+		}
+	}
 }
 
 void ASGameModeBase::OnActorKilled(AActor* VictimActor, AActor* Killer)
@@ -116,6 +125,47 @@ void ASGameModeBase::OnQueryCompleted(UEnvQueryInstanceBlueprintWrapper* QueryIn
 	if (Locations.IsValidIndex(0))
 	{
 		GetWorld()->SpawnActor<AActor>(MinionClass, Locations[0], FRotator::ZeroRotator);
+	}
+}
+
+void ASGameModeBase::OnPowerupSpawnQueryCompleted(UEnvQueryInstanceBlueprintWrapper* QueryInstance, EEnvQueryStatus::Type QueryStatus)
+{
+	if (QueryStatus != EEnvQueryStatus::Success)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Powerup Spawn EQS Query Failed!"));
+		return;
+	}
+
+	TArray<FVector> Locations = QueryInstance->GetResultsAsLocations();
+	TArray<FVector> UsedLocations;
+	int32 SpawnedCount = 0;
+	while (SpawnedCount < DesiredPowerupCount && Locations.Num() > 0)
+	{
+		int32 RandomIndex = FMath::RandRange(0, Locations.Num() - 1);
+		FVector PickedLocation = Locations[RandomIndex];
+		Locations.RemoveAt(RandomIndex);
+		bool bValidLocation = true;
+		for (FVector SpawnedLocation : UsedLocations)
+		{
+			float Distance = (PickedLocation - SpawnedLocation).Size();
+			if (Distance < RequiredPowerupDistance)
+			{
+				bValidLocation = false;
+				break;
+			}
+		}
+
+		if (!bValidLocation)
+		{
+			continue;
+		}
+
+		int32 RandomClassIndex = FMath::RandRange(0, PowerupClasses.Num() - 1);
+		TSubclassOf<AActor> RandomPowerupClass = PowerupClasses[RandomClassIndex];
+		GetWorld()->SpawnActor<AActor>(RandomPowerupClass, PickedLocation, FRotator::ZeroRotator);
+
+		UsedLocations.Add(PickedLocation);
+		++SpawnedCount;
 	}
 }
 

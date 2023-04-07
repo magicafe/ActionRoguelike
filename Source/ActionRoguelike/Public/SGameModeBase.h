@@ -35,6 +35,18 @@ protected:
 	UPROPERTY(EditDefaultsOnly, Category="AI")
 	int32 CreditPerKill;
 
+	UPROPERTY(EditDefaultsOnly, Category="Powerup")
+	UEnvQuery* PowerupSpawnQuery;
+	
+	UPROPERTY(EditDefaultsOnly, Category="Powerup")
+	int32 DesiredPowerupCount;
+
+	UPROPERTY(EditDefaultsOnly, Category="Powerup")
+	float RequiredPowerupDistance;
+
+	UPROPERTY(EditDefaultsOnly, Category="Powerup")
+	TArray<TSubclassOf<AActor>> PowerupClasses;
+
 	FTimerHandle TimerHandle_SpawnBots;
 
 	UFUNCTION()
@@ -42,6 +54,9 @@ protected:
 
 	UFUNCTION()
 	void OnQueryCompleted(UEnvQueryInstanceBlueprintWrapper* QueryInstance, EEnvQueryStatus::Type QueryStatus);
+
+	UFUNCTION()
+	void OnPowerupSpawnQueryCompleted(UEnvQueryInstanceBlueprintWrapper* QueryInstance, EEnvQueryStatus::Type QueryStatus);
 
 	UFUNCTION()
 	void RespawnPlayerElapsed(AController* Controller);

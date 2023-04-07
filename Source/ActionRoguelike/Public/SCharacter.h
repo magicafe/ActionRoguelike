@@ -6,6 +6,7 @@
 #include "GameFramework/Character.h"
 #include "SCharacter.generated.h"
 
+class USActionComponent;
 class UCameraComponent;
 class USpringArmComponent;
 class USInteractionComponent;
@@ -62,6 +63,9 @@ protected:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Components")
 	USAttributeComponent* AttributeComp;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Components")
+	USActionComponent* ActionComp;
 	
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -69,6 +73,10 @@ protected:
 	void MoveForward(float value);
 
 	void MoveRight(float value);
+
+	void SprintStart();
+
+	void SprintStop();
 
 	void PrimaryAttack();
 

@@ -22,6 +22,7 @@ public:
 	ASAICharacter();
 
 protected:
+	UPROPERTY()
 	USWorldUserWidget* ActiveHealthBar;
 	
 	UPROPERTY(EditDefaultsOnly, Category="UI")

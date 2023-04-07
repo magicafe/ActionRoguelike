@@ -22,26 +22,11 @@ protected:
 	UPROPERTY(VisibleAnywhere, Category="Effects")
 	FName TimeToHitParam;
 
-	UPROPERTY(VisibleAnywhere, Category="Effects")
-	FName EffectSocketName;
-	
-	UPROPERTY(EditDefaultsOnly, Category="Attack")
-	float AttackAnimDelay;
-	
-	UPROPERTY(EditAnywhere, Category="Attack")
-	TSubclassOf<AActor> ProjectileClass;
-
-	UPROPERTY(EditAnywhere, Category="Attack")
-	UAnimMontage* AttackAnim;
-
 	UPROPERTY(EditAnywhere, Category="Skill")
 	TSubclassOf<AActor> BlackholeProjectileClass;
 
 	UPROPERTY(EditAnywhere, Category="Skill")
 	TSubclassOf<AActor> DashProjectileClass;
-
-	UPROPERTY(EditAnywhere, Category="Attack")
-	UParticleSystem* CastingEffect;
 
 	FTimerHandle TimerHandle_PrimaryAttack;
 	FTimerHandle TimerHandle_BlackHoleAttack;
@@ -79,20 +64,12 @@ protected:
 	void SprintStop();
 
 	void PrimaryAttack();
-
-	void PrimaryAttack_TimeElapsed();
-
+	
 	void PrimaryInteract();
 
 	void BlackHoleAttack();
-
-	void BlackHoleAttack_TimeElapsed();
-
+	
 	void Dash();
-
-	void Dash_TimeElapsed();
-
-	void SpawnProjectile(TSubclassOf<AActor> ClassToSpawn);
 
 	UFUNCTION()
 	void OnHealthChanged(AActor* InstigatorActor, USAttributeComponent* OwningComp, float NewHealth, float Delta);

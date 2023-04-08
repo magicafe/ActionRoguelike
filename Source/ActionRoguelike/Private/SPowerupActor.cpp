@@ -18,6 +18,8 @@ ASPowerupActor::ASPowerupActor()
 
 	RespawnTime = 10.0f;
 	bIsActive = true;
+
+	bReplicates = true;
 }
 
 void ASPowerupActor::Interact_Implementation(APawn* InstigatorPawn)

@@ -28,6 +28,8 @@ ASProjectileBase::ASProjectileBase()
 	MovementComp->ProjectileGravityScale = 0.0f;
 	MovementComp->bRotationFollowsVelocity = true;
 	MovementComp->bInitialVelocityInLocalSpace = true;
+
+	bReplicates = true;
 }
 
 void ASProjectileBase::OnActorHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp,

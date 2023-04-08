@@ -35,7 +35,6 @@ ASProjectileBase::ASProjectileBase()
 void ASProjectileBase::OnActorHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp,
 	FVector NormalImpulse, const FHitResult& Hit)
 {
-	UE_LOG(LogTemp, Log, TEXT("OnHit Base"));
 	Explode();
 }
 
@@ -58,7 +57,5 @@ void ASProjectileBase::PostInitializeComponents()
 	Super::PostInitializeComponents();
 
 	SphereComp->OnComponentHit.AddDynamic(this, &ASProjectileBase::OnActorHit);
-
-	UE_LOG(LogTemp, Log, TEXT("Base Post Init"));
 }
 

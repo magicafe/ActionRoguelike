@@ -27,6 +27,9 @@ protected:
 	
 	UPROPERTY(EditDefaultsOnly, Category="UI")
 	TSubclassOf<UUserWidget> HealthBarWidgetClass;
+
+	UPROPERTY(EditDefaultsOnly, Category="UI")
+	TSubclassOf<USWorldUserWidget> SpotWidgetClass;
 	
 	UPROPERTY(VisibleAnywhere, Category="Effects")
 	FName TimeToHitParam;

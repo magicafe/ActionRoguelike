@@ -37,6 +37,13 @@ void ASAICharacter::PostInitializeComponents()
 void ASAICharacter::OnPawnSeen(APawn* Pawn)
 {
 	SetTargetActor(Pawn);
+
+	if (ensure(SpotWidgetClass))
+	{
+		USWorldUserWidget* WidgetInst = CreateWidget<USWorldUserWidget>(GetWorld(), SpotWidgetClass);
+		WidgetInst->AttachedActor = this;
+		WidgetInst->AddToViewport(10);
+	}
 }
 
 void ASAICharacter::OnHealthChanged(AActor* InstigatorActor, USAttributeComponent* OwningComp, float NewHealth, float Delta)

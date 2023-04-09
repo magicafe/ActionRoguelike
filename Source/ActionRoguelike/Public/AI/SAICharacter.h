@@ -23,6 +23,9 @@ public:
 
 protected:
 	UPROPERTY()
+	FName TargetActorKey;
+	
+	UPROPERTY()
 	USWorldUserWidget* ActiveHealthBar;
 	
 	UPROPERTY(EditDefaultsOnly, Category="UI")
@@ -45,8 +48,13 @@ protected:
 
 	virtual void PostInitializeComponents() override;
 
+	AActor* GetTargetActor() const;
+
 	UFUNCTION()
 	void OnPawnSeen(APawn* Pawn);
+
+	UFUNCTION(NetMulticast, Unreliable)
+	void MulticastPawnSeen();
 
 	UFUNCTION()
 	void OnHealthChanged(AActor* InstigatorActor, USAttributeComponent* OwningComp, float NewHealth, float Delta);

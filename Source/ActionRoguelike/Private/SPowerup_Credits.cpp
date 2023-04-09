@@ -18,10 +18,13 @@ void ASPowerup_Credits::Interact_Implementation(APawn* InstigatorPawn)
 		return;
 	}
 
-	UE_LOG(LogTemp, Log, TEXT("Actor %s try to get credits."), *GetNameSafe(InstigatorPawn));
-	if (ASPlayerState* PS = InstigatorPawn->GetPlayerState<ASPlayerState>())
+	if (HasAuthority())
 	{
-		PS->AddCredits(CreditsAmount);
-		HideAndCooldown();
+		UE_LOG(LogTemp, Log, TEXT("Actor %s try to get credits."), *GetNameSafe(InstigatorPawn));
+		if (ASPlayerState* PS = InstigatorPawn->GetPlayerState<ASPlayerState>())
+		{
+			PS->AddCredits(CreditsAmount);
+			HideAndCooldown();
+		}	
 	}
 }

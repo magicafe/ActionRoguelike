@@ -24,6 +24,7 @@ ASAICharacter::ASAICharacter()
 	ActionComp = CreateDefaultSubobject<USActionComponent>("ActionComp");
 
 	TimeToHitParam = "TimeToHit";
+	TargetActorKey = "TargetActor";
 }
 
 void ASAICharacter::PostInitializeComponents()
@@ -34,16 +35,30 @@ void ASAICharacter::PostInitializeComponents()
 	AttributeComp->OnHealthChanged.AddDynamic(this, &ASAICharacter::OnHealthChanged);
 }
 
+AActor* ASAICharacter::GetTargetActor() const
+{
+	AAIController* AIC = Cast<AAIController>(GetController());
+	if (AIC)
+	{
+		return Cast<AActor>(AIC->GetBlackboardComponent()->GetValueAsObject(TargetActorKey));
+	}
+	return nullptr;
+}
+
 void ASAICharacter::OnPawnSeen(APawn* Pawn)
 {
-	SetTargetActor(Pawn);
-
-	if (ensure(SpotWidgetClass))
+	if (GetTargetActor() != Pawn)
 	{
-		USWorldUserWidget* WidgetInst = CreateWidget<USWorldUserWidget>(GetWorld(), SpotWidgetClass);
-		WidgetInst->AttachedActor = this;
-		WidgetInst->AddToViewport(10);
+		SetTargetActor(Pawn);
+		MulticastPawnSeen();
 	}
+}
+
+void ASAICharacter::MulticastPawnSeen_Implementation()
+{
+	USWorldUserWidget* WidgetInst = CreateWidget<USWorldUserWidget>(GetWorld(), SpotWidgetClass);
+	WidgetInst->AttachedActor = this;
+	WidgetInst->AddToViewport(10);
 }
 
 void ASAICharacter::OnHealthChanged(AActor* InstigatorActor, USAttributeComponent* OwningComp, float NewHealth, float Delta)

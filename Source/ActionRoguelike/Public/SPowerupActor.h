@@ -28,8 +28,11 @@ protected:
 	UPROPERTY(VisibleAnywhere, Category="Components")
 	UStaticMeshComponent* MeshComp;
 
-	UPROPERTY(VisibleAnywhere, Category="Powerup")
+	UPROPERTY(VisibleAnywhere, ReplicatedUsing="OnRep_IsActive", Category="Powerup")
 	bool bIsActive;
+
+	UFUNCTION()
+	void OnRep_IsActive();
 
 	UPROPERTY(VisibleAnywhere, Category="Powerup")
 	float RespawnTime;

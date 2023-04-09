@@ -18,13 +18,15 @@ public:
 	// Sets default values for this actor's properties
 	ASItemChest();
 
+	virtual void OnActorLoaded_Implementation() override;
+	
 	virtual void Interact_Implementation(APawn* InstigatorPawn) override;
 
 	UPROPERTY(EditAnywhere)
 	float TargetPitch;
 
 protected:
-	UPROPERTY(ReplicatedUsing="OnRep_LidOpened", BlueprintReadOnly)
+	UPROPERTY(ReplicatedUsing="OnRep_LidOpened", BlueprintReadOnly, SaveGame)
 	bool bLidOpened;
 
 	UFUNCTION()

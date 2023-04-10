@@ -19,6 +19,8 @@ public:
 	// Sets default values for this actor's properties
 	ASPowerupActor();
 
+	virtual FText GetInteractText_Implementation(APawn* InstigatorPawn) override;
+	
 	virtual void Interact_Implementation(APawn* InstigatorPawn) override;
 
 protected:

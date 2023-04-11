@@ -15,6 +15,7 @@ ASMagicProjectile::ASMagicProjectile()
 {
 	SphereComp->SetSphereRadius(20.0f);
 
+	InitialLifeSpan = 10.0f;
 	DamageAmount = 20.0f;
 }
 
